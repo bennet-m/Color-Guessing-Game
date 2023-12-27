@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Guesser</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1" >
+
+  <link href='style.css' rel='stylesheet'>
+  <h1 align ="center">Guess the color!</h1>
+</head>
+<body>
+  <div id = "color" align = "center">
+</div>
+<br>
+  <div id = "buttons" align = "center"> 
+    <button class="button button1" id = "button1" disabled onclick="userGuess(button1)"></button>  
+    <button class="button button2" id = "button2" disabled onclick="userGuess(button2)"> </button>
+    <button class="button button3" id = "button3" disabled onclick="userGuess(button3)"></button>
+    <button class="button button4" id = "button4"  disabled onclick="userGuess(button4)"></button>
+    <button class="button button5" id = "button5" disabled onclick="userGuess(button5)"></button>
+    <br>
+        <button class="button button6" id = "restart" style = "bacgroundcolor: white; color:black" onclick="guessOptions()">Continue</button>
+  </div>
+ 
+  <h3 align = "center" id="scoreKeep"> Streak: </h3>
+  
+</body>
+  
+<script src='script.js'></script>
+
+</html>
