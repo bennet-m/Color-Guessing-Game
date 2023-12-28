@@ -1,0 +1,18 @@
+body {
+  background: #000;
+  color: #fff;
+  padding: 25px;
+  font-family: sans-serif;
+}
+button { 
+  padding: 50px;
+  border: none;
+  border-radius: 100%;
+  margin: 20px 20px;
+  font-size: 20px;
+}
+.button6{ 
+    border-radius: 0%;
+    background-color: white;
+    padding: 20px;
+}
