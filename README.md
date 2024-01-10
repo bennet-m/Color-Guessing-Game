@@ -1,4 +1,4 @@
-# Color-Guessing-Game
+# [Color-Guessing-Game](https://bennet-m.github.io/Color-Guessing-Game/)
 Guess which button matches a random RGB value!
 
 Play at https://bennet-m.github.io/Color-Guessing-Game/
